@@ -1256,7 +1256,7 @@ p
 ggsave(p,file="FIG4E-GSEA_GSE10358_7q_vs_Diploid2_ATM_0916.png",height=4,width=4.5)
 
 ```
-<img src="/Github_Fig/Figure3/FIG4E-GSEA_GSE10358_7q_vs_Diploid2_ATM_0916.png">
+<img src="/Github_Fig/Figure4/GSEA_GSE10358_7q_vs_Diploid2_ATM_0916">
 
 
 # Figure4C
