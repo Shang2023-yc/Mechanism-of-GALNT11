@@ -1256,7 +1256,7 @@ p
 ggsave(p,file="FIG4E-GSEA_GSE10358_7q_vs_Diploid2_ATM_0916.png",height=4,width=4.5)
 
 ```
-<img src="/Github_Fig/Figure4/GSEA_GSE10358_7q_vs_Diploid2_ATM_0916">
+<img src="/Github_Fig/Figure4/GSEA_GSE10358_7q_vs_Diploid2_ATM_0916.png">
 
 
 # Figure4C
@@ -1473,6 +1473,7 @@ gsea_df <- gsea_AM@result
 write.csv(gsea_df,"1-GSE6891-AMLGALNT11_LOW_HIGH-GSEA.csv")
 library(clusterProfiler)
 library(enrichplot)
+
 library(ggplot2)
 library(ggpubr)
 
@@ -1737,4 +1738,5 @@ ggsave(p,file="Figure5B-GSEA_GSEA_GSE106291.png",height=4,width=4.5)
 <img src="/Github_Fig/Figure5/SuppleFig5C-GSEA_TCGA-AML_7Q_VS_DIPLOID_Resistance_signature0916_GSE103424.png">
 <img src="/Github_Fig/Figure5/TCGA-AML-galnt11_low_vs_high_Resistance.png">
 <img src="/Github_Fig/Figure5/Figure5B-GSEA_GSEA_GSE106291.png">
+
 
